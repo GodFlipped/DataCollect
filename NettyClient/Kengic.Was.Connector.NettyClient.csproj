@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetty.Handlers" Version="0.6.0" />
+    <PackageReference Include="DotNetty.Transport" Version="0.6.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataCollect.Application\DataCollect.Application.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.ReceivePlcTask\DataCollect.Interface.ReceivePlcTask.csproj" />
+    <ProjectReference Include="..\Kengic.Infrastructure.Protocol.Rds.Commons\Kengic.Infrastructure.Protocol.Rds.Commons.csproj" />
+    <ProjectReference Include="..\Kengic.Was.Connector.Common\Kengic.Was.Connector.Common.csproj" />
+    <ProjectReference Include="..\Kengic.Was.CrossCutting.Netty\Kengic.Was.CrossCutting.Netty.csproj" />
+  </ItemGroup>
+
+</Project>

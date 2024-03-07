@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Furion</id>
+    <version>1.15.9</version>
+    <authors>百小僧/MonkSoul</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://furion.pro/</projectUrl>
+    <description>让 .NET 开发更简单，更通用，更流行。</description>
+    <copyright>© 2020 Furion, Baiqian Co.,Ltd.</copyright>
+    <repository type="Gitee" url="https://gitee.com/dotnetchina/Furion" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Furion.Extras.DependencyModel.CodeAnalysis" version="1.15.3" exclude="Build,Analyzers" />
+        <dependency id="MiniProfiler.AspNetCore.Mvc" version="4.2.22" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.0.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>

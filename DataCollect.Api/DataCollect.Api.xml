@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataCollect.Api</name>
+    </assembly>
+    <members>
+        <member name="T:DataCollect.Api.Controllers.DataCollectControllers">
+            <summary>
+            数据采集
+            </summary>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.DataCollectControllers.ImportCustomer(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入信息
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.DataCollectControllers.RegisterOPCUACollectAsync(System.String)">
+            <summary>
+            启动采集
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.DataCollectControllers.OpcUaClientClose">
+            <summary>
+            关闭数据采集
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.DataCollectControllers.OpcUaClientUpdate(System.String,System.String,System.Boolean)">
+            <summary>
+            修改数据
+            </summary>
+            <param name="ip">例：opc.tcp://10.197.81.5:4840</param>
+            <param name="Key">例：ns=3;s=\"P1001\".R_DV_VSD_Fault</param>
+            <param name="data">例：0</param>
+            <returns></returns>
+        </member>
+        <member name="T:DataCollect.Api.Controllers.MqttController">
+            <summary>
+            MQTT标准协议
+            </summary>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.MqttConnectServer">
+            <summary>
+            启动Mqtt服务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.ServerClose">
+            <summary>
+            关闭Mqtt服务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.PublishAll(System.String)">
+            <summary>
+            广播所有
+            </summary>
+            <param name="data">要发送的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.Publish(System.String)">
+            <summary>
+            广播订阅
+            </summary>
+            <param name="data">要发送的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.MqttClientTest">
+            <summary>
+            广播订阅
+            </summary>
+            <param name="data">要发送的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.TcpServerTest">
+            <summary>
+            启动TcpServer
+            </summary>
+            <param name="data">要发送的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.HttpForWas(DataCollect.Interface.TCPServer.Models.TcpServerMessage)">
+            <summary>
+            接收was分拣程序业务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataCollect.Api.Controllers.MqttController.JDMqttConnectServer">
+            <summary>
+            京东链接测试
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

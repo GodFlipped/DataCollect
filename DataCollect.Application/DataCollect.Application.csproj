@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataCollect.Core\DataCollect.Core.csproj" />
+    <ProjectReference Include="..\DataCollect.EntityFramework.Core\DataCollect.EntityFramework.Core.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.KgMqttClient\DataCollect.Interface.KgMqttClient.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.KgMqttServer\DataCollect.Interface.KgMqttServer.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.MQTTnet\DataCollect.Interface.MQTTnet.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.ReceivePlcTask\DataCollect.Interface.ReceivePlcTask.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.ReceivePSortMachineInformation\DataCollect.Interface.ReceivePSortMachineInformation.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.TCPClient\DataCollect.Interface.TCPClient.csproj" />
+    <ProjectReference Include="..\DataCollect.Interface.TCPServer\DataCollect.Interface.TCPServer.csproj" />
+    <ProjectReference Include="..\Kengic.Was.Connector.Common\Kengic.Was.Connector.Common.csproj" />
+  </ItemGroup>
+
+</Project>

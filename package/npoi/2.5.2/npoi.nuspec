@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NPOI</id>
+    <version>2.5.2</version>
+    <title>NPOI</title>
+    <authors>NPOI Contributors</authors>
+    <owners>Nissl Lab</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo\60_60.jpg</icon>
+    <projectUrl>https://github.com/nissl-lab/npoi</projectUrl>
+    <description>Contact us on telegram: https://t.me/npoidevs</description>
+    <summary>.NET port of Apache POI. 
+NPOI can read and write xls (Excel 97-2003), xlsx(Excel 2007+) and docx(Word 2007+)</summary>
+    <releaseNotes>#448 Add ifs, maxifs, minifs functions to analysis tool pack
+#410 fix Match function for compatible
+#423 AddPicture doesn't work, corrupts DOCX file
+#397 LocalUtil.GetUserTimeZone NullReferenceException
+#167 Unable to add image to a word document header or footer using XWPF
+#346 NullReferenceException when copying sheet in some Excel files
+#413 fix: Rich strings hash for texts with the color set as RGB
+#444 Update RANDBETWEEN
+#158 NPOI Excel Merging Causing “Repaired Records”
+#345 Excel unreadable content error after editing existing file
+#358 Remove static locale state
+#367 fix incorrect footnote handling
+#372 NPOI requires GDI+ dependency even on sheet creation without using column auto-sizing
+#281 InvalidOperationException on XSSFSheet.GetColumnStyle
+#377 AutoSizeColumnTracker to Lazy, fix build errors
+#339 improve performance of CreateRow for bigger excel sheets</releaseNotes>
+    <copyright>Nissl LLC</copyright>
+    <tags>xlsx xls Excel Word docx office ole</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.Drawing.Common" version="4.5.0" />
+        <dependency id="SharpZipLib" version="1.2.0" />
+        <dependency id="Portable.BouncyCastle" version="1.8.6" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="SharpZipLib" version="1.2.0" />
+        <dependency id="Portable.BouncyCastle" version="1.8.6" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="SharpZipLib" version="1.2.0" />
+        <dependency id="Portable.BouncyCastle" version="1.8.6" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.Drawing.Common" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

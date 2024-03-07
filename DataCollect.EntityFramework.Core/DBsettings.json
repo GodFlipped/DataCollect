@@ -1,0 +1,7 @@
+{
+  "ConnectStrings": {
+   // "MysqlDb": "Database=DataCollect;Data Source=localhost;User Id=root;Password=q123;CharSet=utf8;port=3306",
+    "SqlServerDb": "Database=DataCollect;Data Source=10.108.225.36;User Id=sa;Password=Kengic@123"
+
+  }
+}

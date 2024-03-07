@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Furion.Extras.Web.HttpContext</id>
+    <version>1.15.0</version>
+    <authors>百小僧/MonkSoul</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://furion.pro/</projectUrl>
+    <description>Furion HttpContext 插件。</description>
+    <copyright>© 2020 Furion, Baiqian Co.,Ltd.</copyright>
+    <repository type="Gitee" url="https://gitee.com/dotnetchina/Furion" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>

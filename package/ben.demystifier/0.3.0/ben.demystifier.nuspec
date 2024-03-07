@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ben.Demystifier</id>
+    <version>0.3.0</version>
+    <title>Ben.Demystifier</title>
+    <authors>Ben Adams</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/benaadams/Ben.Demystifier</projectUrl>
+    <description>High performance understanding for stack traces (Make error logs more productive)</description>
+    <repository type="git" url="https://github.com/benaadams/Ben.Demystifier" commit="7a4d213221bc99a1f8da491c89c6f96c09a74d55" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Reflection.Metadata" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Reflection.Metadata" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="System.Reflection.Metadata" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

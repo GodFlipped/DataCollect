@@ -1,0 +1,10 @@
+{
+  "ValidationTypeMessageSettings": {
+    "Definitions": [
+      [ "Required", "值不能为空或Null" ],
+      [ "Numeric", "必须是数值类型" ],
+
+      [ "StrongPassword", "密码太简单了!!!" ]
+    ]
+  }
+}

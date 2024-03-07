@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion" Version="1.15.9" />
+    <PackageReference Include="HslCommunication" Version="9.6.5" />
+    <PackageReference Include="MQTTnet" Version="3.0.16" />
+    <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="3.0.16" />
+  </ItemGroup>
+
+</Project>
